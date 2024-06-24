@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  color: #24292e;
+  margin: 0;
+}
+h1,p,h2,h3 {
+  margin: 0;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  /* background:pink; */
+  max-width: 960px;
+  padding: 0 4%;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+}
+
+.site-title {
+  line-height: 1px;
+}
+.site-title a {
+  display: block;
+}
+.sec-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 65px;
+  font-weight: bold;
+}
+
+/*-------------------------------------------
+header
+-------------------------------------------*/
+
+#header {
+  padding-top: 100px;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+#header ul {
+  display: flex;
+  padding: 10px 0;
+}
+
+#header li {
+  font-size: 0.9rem;
+  margin-left: 30px;
+}
+
+#header li a {
+  color: #24292e;
+}
+#header li a:hover {
+  opacity: 0.7;
+}
+
+/*-------------------------------------------
+main
+-------------------------------------------*/
+.mainvisual {
+  height: 420px;
+  max-width: 100%;
+  background-image: url("../img/mainvisual-pc.jpg");
+  background-position: center;
+}
+
+/*-------------------------------------------
+About
+-------------------------------------------*/
+#about ul {
+  margin-bottom:30px;
+}
+
+#about li:first-child {
+  margin-bottom: 30px;
+}
+
+#about p {
+  text-align:justify;
+}
+
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+#works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#works li {
+  width:31%;
+  margin-bottom: 23px;
+}
+
+
+/*-------------------------------------------
+News
+-------------------------------------------*/
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+  margin-bottom: 20px;
+}
+
+#news dt {
+  width: 20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+#news dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+
+/*-------------------------------------------
+contact
+-------------------------------------------*/
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#contact dt {
+  width: 15%;
+}
+
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+
+#contact dd textarea {
+  height: 150px;
+}
+
+#contact .button {
+  text-align: center;
+}
+
+#contact .button input {
+  width: 200px;
+  background-color: #000000;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #000000;
+}
+
+#contact .button input:hover {
+  background: #fff;
+  color: #000000;
+}
+

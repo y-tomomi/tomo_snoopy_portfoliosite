@@ -1,0 +1,253 @@
+/* CSSのリセット */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+/*共通項目**********************************************************************/
+
+.btn{
+  width: 170px;
+  height: 48px;
+  border: 1px solid black;
+  line-height: 48px;
+  color: black;
+  transition: all 0.5s; 
+  text-align: center;
+  display: inline-block;
+}
+.btn:hover {
+  background: black;
+  color: white;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  }
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.title h1{
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+
+/*ヘッダー**********************************************************************/
+header {
+  display: flex;
+  background-image: url(main_visual_13-0x0.jpg);
+  background-size:cover;
+  height: 650px;
+  color: white;
+}
+header img {
+  margin: 50px 80px 0 50px;
+}
+.header-text {
+  padding-top: 50px;
+}
+
+.top-nav {
+  margin-left: auto;
+}
+
+.top-nav ul {
+  display: flex;
+  margin-left: auto;
+  padding-right: 50px;
+}
+
+.top-nav li p {
+  padding-top: 50px;
+  padding-right: 32px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+/*メイン**********************************************************************/
+main {
+  padding-bottom: 100px;
+}
+.main-text {
+  text-align: center; 
+  background: #f6f6f6;
+}
+.main-text h1{
+  padding-top: 100px;
+  font-size: 40px;
+}
+.main-text p{
+  font-size:20px;
+  letter-spacing: 2px;
+}
+.main-text-left {
+  width: 400px;
+  text-align: left;
+  margin: 0 auto;
+}
+.main-product {
+  padding-top:100px;
+}
+.main-product h1 {
+  display: inline-block;
+}
+
+
+/*プロダクト*******************************************************************/
+.product-imgs {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.product-img p {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  overflow-wrap: break-word;
+}
+
+.product-img {
+  padding-top: 60px;
+  width: 230px;
+}
+
+
+/*アーティクル******************************************************************/
+.articles{
+  background: #f6f6f6;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.article {
+  display: flex;
+  padding-top: 60px;
+  margin-bottom: 30px;
+  gap: 35px;
+}
+
+.article-text h2 {
+  font-size: 17px;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.article-text p {
+  font-size: 11px;
+  color: #777;
+  letter-spacing: 2px;
+}
+
+/*フッター**********************************************************************/
+footer {
+  text-align: center;
+}
+
+/* ボタンエリア */
+.ft-btn1 {
+  color: #4871a9;
+  border-color: #4871a9;
+  font-size: 13px;
+  margin-right: 30px;
+}
+.ft-btn1:hover {
+  background: #4871a9;
+  color: white;
+}
+
+.ft-btn2 {
+  color: #70bdd3;
+  border-color: #70bdd3;
+  font-size: 13px;
+  margin-right: 30px;
+} 
+.ft-btn2:hover {
+  background: #70bdd3;
+  color: white;
+}
+
+.ft-btn3 {
+  color: #2f9bcd;
+  border-color: #2f9bcd;
+  font-size: 13px;
+} 
+.ft-btn3:hover {
+  background: #2f9bcd;
+  color: white;
+}
+
+.btn-area {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* フッターナビエリア */
+.ft-nav-area {
+  background: #939899;
+  justify-content: center;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.ft-nav {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.ft-nav ul {
+  display: flex;
+  padding-right: 50px;
+}
+
+.ft-nav li p {
+  padding-top: 50px;
+  padding-right: 32px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: white;
+  cursor: pointer;
+}
+
+/* コピーライトエリア */
+.Copywrite-area {
+  background: #656c6e;
+  padding: 20px 0 20px 0;
+  height: 100px;
+}
+
+.Copywrit-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+
